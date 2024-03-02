@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 export function ContactForm() {
   return (
-    <Card className="max-w-md w-full bg-primary text-white lg:py-14 py-10 lg:px-16 px-12">
+    <Card className="sm:max-w-md max-w-none w-full bg-primary text-white lg:py-14 py-10 lg:px-16 md:px-12 px-4">
       <CardContent>
         <form className="text-base">
           <div className="flex flex-col gap-8">

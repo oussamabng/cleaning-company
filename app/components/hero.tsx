@@ -6,15 +6,15 @@ import { ArrowUpRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen w-full">
+    <div className="relative md:h-screen w-full">
       <Banner position="top" />
       <Navbar />
       <div className="flex justify-center h-full lg:py-12 py-6 md:px-8 px-14">
-        <div className="flex flex-col items-center md:gap-6 gap-4">
+        <div className="flex flex-col items-center gap-6">
           <span className="text-primary font-semibold text-base">
             Professional Cleaning Service
           </span>
-          <span className="font-bold md:text-6xl sm:text-5xl text-4xl text-center max-w-screen-lg">
+          <span className="font-bold md:text-6xl sm:text-5xl text-3xl text-center max-w-screen-lg">
             We Are Premium Cleaning Company located in USA ready to make your
             life easier!!
           </span>
@@ -25,7 +25,7 @@ const Hero = () => {
             approach. Need us to wash dishes? Do laundry? Make the beds? Not a
             problem!`}
           </p>
-          <div className="flex items-center gap-8 md:py-4">
+          <div className="flex sm:flex-row flex-col items-center gap-8 py-4">
             <Button size="lg">
               Book A Schedule
               <ArrowUpRight className="ml-2 w-4 h-4" />
