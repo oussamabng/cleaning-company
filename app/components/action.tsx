@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Action = () => {
   return (
@@ -13,13 +14,15 @@ const Action = () => {
             Quisque imperdiet mauris nec faucibus vestibulum. Ut vestibulum est
             ac hendrerit pharetra. Integer sit amet laoreet lectus
           </span>
-          <Button
-            className="uppercase font-bold mt-4"
-            size="lg"
-            variant="secondary"
-          >
-            BOOK Appointment
-          </Button>
+          <Link href="tel:+33629933352">
+            <Button
+              className="uppercase font-bold mt-4"
+              size="lg"
+              variant="secondary"
+            >
+              BOOK Appointment
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

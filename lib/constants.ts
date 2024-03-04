@@ -15,7 +15,7 @@ export const servicesData = [
     title: "Recurring Cleaning",
     subtitle:
       "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.",
-    img: "/images/team.jpeg",
+    img: "/images/hire-professional-cleaners.jpg",
   },
   {
     title: "Occasional Cleaning",
