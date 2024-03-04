@@ -6,6 +6,7 @@ import {
   PhoneCall,
   Twitter,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -14,7 +15,13 @@ const Footer = () => {
       <div className="flex md:flex-row flex-col md:justify-between md:items-start items-center md:gap-0 gap-12">
         <div className="flex md:items-start items-center flex-col gap-5">
           <Link href="/">
-            <span className=" font-black  text-2xl">LOGO</span>
+            <Image
+              src="/images/logo.png"
+              alt="logo"
+              width={200}
+              height={200}
+              className="object-cover"
+            />
           </Link>
           <span className="max-w-xs md:text-left text-center">
             We Are Premium Cleaning Company in USA ready to make your life
@@ -36,9 +43,8 @@ const Footer = () => {
           <span className="text-primary font-semibold text-xl">Navigation</span>
           <div className="flex md:items-start items-center flex-col gap-2">
             <Link href="/">Home</Link>
-            <Link href="/">About Us</Link>
-            <Link href="/">Services</Link>
-            <Link href="/">Contact Us</Link>
+            <Link href="#service">Services</Link>
+            <Link href="#contact">Contact Us</Link>
           </div>
         </div>
         <div className="flex md:items-start items-center flex-col gap-5">
@@ -48,21 +54,23 @@ const Footer = () => {
               href="/"
               className="flex items-center md:text-left text-center"
             >
-              <PhoneCall className="mr-2 w-4 h-4 " /> 123-456-7890
+              <PhoneCall className="mr-2 w-4 h-4 " /> +33 629 933 352 -- +33 767
+              840 889
             </Link>
             <Link
               href="/"
               className="flex items-center md:text-left text-center"
             >
-              <MailIcon className="mr-2 w-4 h-4" /> info@companyemail.com
+              <MailIcon className="mr-2 w-4 h-4" /> siriusproprete@gmail.com
             </Link>
             <Link
               href="/"
               className="flex items-center md:text-left text-center"
             >
-              <MapPinIcon className="mr-2 w-4 h-4" /> 1111 Avenue Francis Road,{" "}
+              <MapPinIcon className="mr-2 w-4 h-4" /> 4 Allée Georges peretti
+              13100,
               <br className="md:block hidden" />
-              Laval, USA
+              Aix-en-Provence
             </Link>
           </div>
         </div>

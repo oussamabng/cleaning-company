@@ -3,6 +3,7 @@ import Banner from "@/components/banner";
 import Navbar from "@/components/navbar";
 import { Button } from "../../components/ui/button";
 import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -26,13 +27,16 @@ const Hero = () => {
             problem!`}
           </p>
           <div className="flex sm:flex-row flex-col items-center gap-8 py-4">
-            <Button size="lg">
-              Book A Schedule
-              <ArrowUpRight className="ml-2 w-4 h-4" />
-            </Button>
+            <Link href="tel:+33629933352">
+              <Button size="lg">
+                Book A Schedule
+                <ArrowUpRight className="ml-2 w-4 h-4" />
+              </Button>
+            </Link>
+            {/* 
             <Button variant="outline" size="lg">
               Our Best Offer <ArrowUpRight className="ml-2 w-4 h-4" />
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

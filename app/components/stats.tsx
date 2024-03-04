@@ -9,7 +9,11 @@ const Stats = () => {
           We Make Sanitizing Services Simple And Easy For You
         </h2>
         <div className="absolute bottom-0">
-          <Button size="lg" variant="secondary" className=" translate-y-1/2">
+          <Button
+            size="lg"
+            variant="secondary"
+            className="translate-y-1/2 cursor-default"
+          >
             More Than Just Cleaning
           </Button>
         </div>
