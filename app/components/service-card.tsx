@@ -10,7 +10,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, subtitle, img }) => {
   return (
     <div className=" mx-auto border border-[#F2F2F2] p-8 rounded flex flex-1">
       <div className="flex flex-col md:gap-6 gap-4">
-        <Avatar className="rounded text-white bg-primary w-40 h-40 flex justify-center items-center">
+        <Avatar className="w-60 h-60 rounded text-white bg-primary flex justify-center items-center">
           <AvatarImage src={img} className="object-cover" />
         </Avatar>
         <span className="md:text-xl text-lg font-bold">{title}</span>
