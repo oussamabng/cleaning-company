@@ -15,8 +15,13 @@ const Services = () => {
             />
           </div>
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-7 w-full items-center">
-            {servicesData.map(({ title, subtitle }, index) => (
-              <ServiceCard key={index} title={title} subtitle={subtitle} />
+            {servicesData.map(({ title, subtitle, img }, index) => (
+              <ServiceCard
+                key={index}
+                title={title}
+                subtitle={subtitle}
+                img={img}
+              />
             ))}
           </div>
         </div>

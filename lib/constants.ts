@@ -15,41 +15,49 @@ export const servicesData = [
     title: "Recurring Cleaning",
     subtitle:
       "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.",
+    img: "/images/team.jpeg",
   },
   {
     title: "Occasional Cleaning",
     subtitle:
       "Needs that do not necessarily mean you have a party planned or awaiting a special occasion, or expecting guests.",
+    img: "/images/team.jpeg",
   },
   {
     title: "Apartment Cleaning",
     subtitle:
       "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.",
+    img: "/images/team.jpeg",
   },
   {
     title: "Refrigerator Cleaning",
     subtitle:
       "Rid of some memories or people to make room for new ones. Some of your loved ones have disappointed.",
+    img: "/images/team.jpeg",
   },
   {
     title: "Housekeeping Services",
     subtitle:
       "Management of duties and chores involved in the running of a household, such as cleaning, cooking.",
+    img: "/images/team.jpeg",
   },
   {
     title: "Oven Cleaning",
     subtitle:
       "Cleaning product designed or labeled to clean and to remove dried or baked on food deposits from oven walls.",
+    img: "/images/team.jpeg",
   },
   {
     title: "Apartment Cleaning",
     subtitle:
       "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.",
+    img: "/images/team.jpeg",
   },
   {
     title: "Refrigerator Cleaning",
     subtitle:
       "Rid of some memories or people to make room for new ones. Some of your loved ones have disappointed.",
+    img: "/images/team.jpeg",
   },
 ];
 
