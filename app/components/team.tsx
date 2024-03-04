@@ -1,7 +1,7 @@
 import Heading from "@/components/heading";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
-import TeamCard from "./team-card";
 import { teamData } from "@/lib/constants";
+import TeamCard from "./team-card";
 
 const Team = () => {
   const imageUrl = "/images/test.jpeg";

@@ -1,3 +1,15 @@
+export const heroData = {
+  title: "Professional Cleaning Service",
+  subtitle: `We Are Premium Cleaning Company located in USA ready to make your
+  life easier!!`,
+  desc: `At Cleanzer Crystal Clean, we believe in building a relationship
+  with every one of our customers. Our cleaning programs are tailored
+  to meet your needs. We don't believe in a one size fits all
+  approach. Need us to wash dishes? Do laundry? Make the beds? Not a
+  problem!`,
+  action: "Book A Schedule",
+};
+
 export const servicesData = [
   {
     title: "Recurring Cleaning",

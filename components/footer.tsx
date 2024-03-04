@@ -51,27 +51,24 @@ const Footer = () => {
           <span className="text-primary font-semibold text-xl">Contact</span>
           <div className="flex flex-col md:items-start items-center gap-2">
             <Link
-              href="/"
+              href="tel:+33629933352"
               className="flex items-center md:text-left text-center"
             >
               <PhoneCall className="mr-2 w-4 h-4 " /> +33 629 933 352 -- +33 767
               840 889
             </Link>
             <Link
-              href="/"
+              href="mailto:siriusproprete@gmail.com"
               className="flex items-center md:text-left text-center"
             >
               <MailIcon className="mr-2 w-4 h-4" /> siriusproprete@gmail.com
             </Link>
-            <Link
-              href="/"
-              className="flex items-center md:text-left text-center"
-            >
+            <span className="flex items-center md:text-left text-center">
               <MapPinIcon className="mr-2 w-4 h-4" /> 4 Allée Georges peretti
               13100,
               <br className="md:block hidden" />
               Aix-en-Provence
-            </Link>
+            </span>
           </div>
         </div>
       </div>

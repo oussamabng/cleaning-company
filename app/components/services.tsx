@@ -1,7 +1,4 @@
-import { MoveRight } from "lucide-react";
-
 import Heading from "@/components/heading";
-import { Button } from "@/components/ui/button";
 import { servicesData } from "@/lib/constants";
 import ServiceCard from "./service-card";
 
@@ -16,10 +13,6 @@ const Services = () => {
               desc="While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:"
               tag="best services"
             />
-            {/*   <Button size="lg">
-              See more
-              <MoveRight className="ml-2 w-4 h-4" />
-            </Button> */}
           </div>
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-7 w-full items-center">
             {servicesData.map(({ title, subtitle }, index) => (
