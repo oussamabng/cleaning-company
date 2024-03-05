@@ -4,13 +4,14 @@ import { Resend } from "resend";
 import EmailTemplate from "../../../emails";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
+const email = process.env.EMAIL!;
 
 export async function POST(request: Request, response: Response) {
   const { userEmail, userFirstname, userMessage } = await request.json();
 
   const { error } = await resend.emails.send({
     from: "Acme <onboarding@resend.dev>",
-    to: ["siriusproprete@gmail.com"],
+    to: [email],
     subject: "Appointment",
     html: render(EmailTemplate({ userEmail, userFirstname, userMessage })),
   });
