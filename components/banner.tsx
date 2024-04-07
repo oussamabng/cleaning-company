@@ -23,7 +23,7 @@ const Banner: React.FC<BannerProps> = ({ position = "top" }) => {
       >
         {isTop ? (
           <span className="md:text-base text-sm">
-            Appelez pour une estimation gratuite! Nous sommes toujours
+            Contactez-nous pour un devis gratuit! Nous sommes toujours
             disponibles :{" "}
             <span className="font-bold text-[#FEF5E7]">
               +33 629 933 352 -- +33 767 840 889

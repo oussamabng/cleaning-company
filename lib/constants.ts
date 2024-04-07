@@ -1,7 +1,7 @@
 export const heroData = {
   title: "Service de nettoyage professionnel",
   subtitle: `Nous sommes une entreprise de nettoyage haut de gamme située à Aix-en-Provence prête à vous faciliter la vie !!`,
-  desc: `Chez Sirius Proprete, nous croyons en l'établissement d'une relation avec chacun de nos clients. Nos programmes de nettoyage sont adaptés à vos besoins. Nous ne croyons pas en une approche universelle. Besoin de nous pour faire la vaisselle ? Faire la lessive? Faire les lits? Pas de problème!`,
+  desc: `Chez Sirius Proprete, nous croyons en l'établissement d'une relation avec chacun de nos clients. Nos programmes de nettoyage sont adaptés à vos besoins.`,
   action: "Réservez un horaire",
 };
 
@@ -25,7 +25,7 @@ export const servicesData = [
     img: "/images/31b15d621c84d4f73ecee6ff9670707f.jpg",
   },
   {
-    title: "Nettoyage Moquette",
+    title: "Ne",
     subtitle:
       "Nettoyage à de moquette pour particuliers et professionnels à Aix-en-Provence et sa région. Nous disposons de toutes les machines et produits nécessaires.",
     img: "/images/nettoyage-moquette-marseille.jpg",
@@ -49,26 +49,28 @@ export const servicesData = [
     img: "/images/procédures-pour-le-nettoyage-en-milieu-hôtelier.jpg",
   },
   {
-    title: "Nettoyage Canapé",
+    title: "Nettoyage Automobile à domicile",
     subtitle:
-      "Nettoyage de canapés et remise en état. Tous types de revêtements. Nettoyage d’ameublement tissus, capitonage…",
-    img: "/images/a-worker-with-yellow-microfiber-rag-cleaning-sofa-2022-12-13-03-21-29-utc.jpg",
+      "Intervention auprès des professionnels pour le lavage de vos flottes automobiles. Concessionnaire, Loueur, Parc de véhicule entreprise.",
+    img: "/images/PN1305_HowOftenWashCar_Header-1.jpg",
   },
 ];
 
 export const teamData = [
   {
-    title: "Choisissez votre heure",
+    title: "1. Choisissez votre heure",
     subtitle:
       "Sélectionnez l'heure qui vous convient le mieux pour votre nettoyage.",
   },
   {
-    title: "Réservez votre heure",
-    subtitle: "Réservez rapidement l'heure que vous avez soigneusement choisie.",
+    title: "2. Réservez votre heure",
+    subtitle:
+      "Réservez rapidement l'heure que vous avez soigneusement choisie.",
   },
   {
-    title: "Notre équipe arrive",
-    subtitle: "Soyez prêt pour une arrivée professionnelle et un nettoyage de qualité.",
+    title: "3. Notre équipe arrive",
+    subtitle:
+      "Soyez prêt pour une arrivée professionnelle et un nettoyage de qualité.",
   },
 ];
 

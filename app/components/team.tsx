@@ -4,7 +4,7 @@ import { teamData } from "@/lib/constants";
 import TeamCard from "./team-card";
 
 const Team = () => {
-  const imageUrl = "/images/test.jpeg";
+  const imageUrl = "/images/test.jpg";
   return (
     <div className="w-full md:py-40 py-32 md:px-8 px-14 bg-[#EBF4FF] bg-opacity-25">
       <div className="max-w-screen-xl mx-auto">

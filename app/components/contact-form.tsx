@@ -5,7 +5,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
@@ -16,7 +16,8 @@ export function ContactForm() {
 
   const [loading, setLoading] = useState(false);
 
-  const onSubmit = async () => {
+  const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     try {
       setLoading(true);
       const response = await fetch("/api/mail", {
