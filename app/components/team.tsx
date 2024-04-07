@@ -10,7 +10,10 @@ const Team = () => {
       <div className="max-w-screen-xl mx-auto">
         <div className="flex md:flex-row flex-col justify-between items-center md:gap-6 gap-12">
           <div className="flex flex-col gap-14">
-            <Heading title="How To Get Our Service" tag="Get our Service" />
+            <Heading
+              title="Comment obtenir nos services"
+              tag="Obtenez nos services"
+            />
             <div className="flex flex-col sm:gap-8 gap-14">
               {teamData.map(({ title, subtitle }, index) => (
                 <TeamCard key={index} title={title} subtitle={subtitle} />
