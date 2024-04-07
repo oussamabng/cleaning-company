@@ -7,49 +7,49 @@ export const heroData = {
 
 export const servicesData = [
   {
-    title: "Nettoyage Bureau",
+    title: "Nettoyage bureau",
     subtitle:
       "Des commerces à l’administration, nos prestations sont adaptées à toutes les entreprises. Faites nettoyer votre entreprise à Aix-en-Provence et environs.",
     img: "/images/hire-professional-cleaners.jpg",
   },
   {
-    title: "Nettoyage Immeuble",
+    title: "Nettoyage immeuble",
     subtitle:
       "Pour des résidences propres et des produits sains. Nous accompagnons également de nombreux syndic.",
     img: "/images/team.jpeg",
   },
   {
-    title: "Nettoyage Industriel",
+    title: "Nettoyage des vitres",
     subtitle:
-      "Qu’il s’agisse de vos hangars ou d’une chaine de production, nous intervenons rapidement dans toute la région.",
-    img: "/images/31b15d621c84d4f73ecee6ff9670707f.jpg",
+      "Spécialiste du lavage des surfaces vitrés pour les Hôtels, Restaurants, Magasins, Boutiques, Bureaux, Sociétés…",
+    img: "/images/Laveur-de-vitre.jpg",
   },
   {
-    title: "Ne",
+    title: "Ménage à domicile",
     subtitle:
       "Nettoyage à de moquette pour particuliers et professionnels à Aix-en-Provence et sa région. Nous disposons de toutes les machines et produits nécessaires.",
-    img: "/images/nettoyage-moquette-marseille.jpg",
+    img: "/images/femme-menage-a-domicile-nettoyage-maison.jpg",
   },
   {
-    title: "Nettoyage Fin De Chantier",
+    title: "Nettoyage fin de chantier",
     subtitle:
       "Faites confiance au soin apporté par nos équipes pour garantir le nettoyage de vos fins de chantier à Aix-en-Provence et dans les Bouches-du-Rhône.",
     img: "/images/nettoyage-fin-chantier-casablanca-maroc.jpg",
   },
   {
-    title: "Nettoyage de Restaurant",
+    title: "Nettoyage de restaurant",
     subtitle:
       "Nettoyage de restaurant à Aix-en-Provence et dans les Bouches du Rhône. Procurez une hygiène irréprochable à vos clients.",
     img: "/images/TOO_restaurant_Panoramique_vue_Paris_Seine_Tour_Eiffel_2.jpg",
   },
   {
-    title: "Nettoyage pour Hôtels",
+    title: "Nettoyage pour hôtels",
     subtitle:
       "Pour une propreté irréprochable de votre hôtel tout en utilisant des produits respectueux de l’environnement.",
-    img: "/images/procédures-pour-le-nettoyage-en-milieu-hôtelier.jpg",
+    img: "/images/nettoyage-hotel-nimes-768x497.jpg",
   },
   {
-    title: "Nettoyage Automobile à domicile",
+    title: "Nettoyage automobile à domicile",
     subtitle:
       "Intervention auprès des professionnels pour le lavage de vos flottes automobiles. Concessionnaire, Loueur, Parc de véhicule entreprise.",
     img: "/images/PN1305_HowOftenWashCar_Header-1.jpg",
@@ -75,8 +75,8 @@ export const teamData = [
 ];
 
 export const statsData = [
-  { title: "Maisons propres", count: "10" },
-  { title: "Années glorieuses", count: "1" },
-  { title: "Clients actifs", count: "2" },
-  { title: "Conseiller d'équipe", count: "2" },
+  { title: "Maisons propres", count: "30" },
+  { title: "Années expériences", count: "1" },
+  { title: "Clients actifs", count: "10" },
+  { title: "Conseiller d'équipe", count: "5" },
 ];

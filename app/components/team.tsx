@@ -21,8 +21,8 @@ const Team = () => {
             </div>
           </div>
           <DirectionAwareHover imageUrl={imageUrl}>
-            <p className="font-bold text-xl">Get it now</p>
-            <p className="font-normal text-sm">Lorem ipsum dolor sit.</p>
+            <p className="font-bold text-xl"></p>
+            <p className="font-normal text-sm"></p>
           </DirectionAwareHover>
         </div>
       </div>
