@@ -48,11 +48,11 @@ export function ContactForm() {
           <div className="text-base text-black">
             <div className="flex flex-col gap-8">
               <div className="flex flex-col space-y-1.5">
-                <Label htmlFor="name">Name</Label>
+                <Label htmlFor="name">Nom</Label>
                 <Input
                   required
                   id="name"
-                  placeholder="Your Name"
+                  placeholder="Votre Nom"
                   className="w-full bg-white"
                   onChange={(e) => {
                     setFormData((prevState) => ({
@@ -68,7 +68,7 @@ export function ContactForm() {
                 <Input
                   required
                   id="email"
-                  placeholder="Your Email"
+                  placeholder="Votre Email"
                   onChange={(e) => {
                     setFormData((prevState) => ({
                       ...prevState,
@@ -83,7 +83,7 @@ export function ContactForm() {
                   required
                   rows={5}
                   id="message"
-                  placeholder="Your Message"
+                  placeholder="Votre Message"
                   onChange={(e) => {
                     setFormData((prevState) => ({
                       ...prevState,
@@ -102,7 +102,7 @@ export function ContactForm() {
             variant="secondary"
             className="h-14 rounded font-bold"
           >
-            {loading ? "Loading.." : "Book A Schedule"}
+            {loading ? "Loading.." : "Réservez un horaire"}
           </Button>
         </CardFooter>
       </Card>

@@ -1,84 +1,80 @@
 export const heroData = {
-  title: "Professional Cleaning Service",
-  subtitle: `We Are Premium Cleaning Company located in USA ready to make your
-  life easier!!`,
-  desc: `At Cleanzer Crystal Clean, we believe in building a relationship
-  with every one of our customers. Our cleaning programs are tailored
-  to meet your needs. We don't believe in a one size fits all
-  approach. Need us to wash dishes? Do laundry? Make the beds? Not a
-  problem!`,
-  action: "Book A Schedule",
+  title: "Service de nettoyage professionnel",
+  subtitle: `Nous sommes une entreprise de nettoyage haut de gamme située à Aix-en-Provence prête à vous faciliter la vie !!`,
+  desc: `Chez Sirius Proprete, nous croyons en l'établissement d'une relation avec chacun de nos clients. Nos programmes de nettoyage sont adaptés à vos besoins. Nous ne croyons pas en une approche universelle. Besoin de nous pour faire la vaisselle ? Faire la lessive? Faire les lits? Pas de problème!`,
+  action: "Réservez un horaire",
 };
 
 export const servicesData = [
   {
-    title: "Recurring Cleaning",
+    title: "Nettoyage Bureau",
     subtitle:
-      "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.",
+      "Des commerces à l’administration, nos prestations sont adaptées à toutes les entreprises. Faites nettoyer votre entreprise à Aix-en-Provence et environs.",
     img: "/images/hire-professional-cleaners.jpg",
   },
   {
-    title: "Occasional Cleaning",
+    title: "Nettoyage Immeuble",
     subtitle:
-      "Needs that do not necessarily mean you have a party planned or awaiting a special occasion, or expecting guests.",
+      "Pour des résidences propres et des produits sains. Nous accompagnons également de nombreux syndic.",
     img: "/images/team.jpeg",
   },
   {
-    title: "Apartment Cleaning",
+    title: "Nettoyage Industriel",
     subtitle:
-      "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.",
-    img: "/images/team.jpeg",
+      "Qu’il s’agisse de vos hangars ou d’une chaine de production, nous intervenons rapidement dans toute la région.",
+    img: "/images/31b15d621c84d4f73ecee6ff9670707f.jpg",
   },
   {
-    title: "Refrigerator Cleaning",
+    title: "Nettoyage Moquette",
     subtitle:
-      "Rid of some memories or people to make room for new ones. Some of your loved ones have disappointed.",
-    img: "/images/team.jpeg",
+      "Nettoyage à de moquette pour particuliers et professionnels à Aix-en-Provence et sa région. Nous disposons de toutes les machines et produits nécessaires.",
+    img: "/images/nettoyage-moquette-marseille.jpg",
   },
   {
-    title: "Housekeeping Services",
+    title: "Nettoyage Fin De Chantier",
     subtitle:
-      "Management of duties and chores involved in the running of a household, such as cleaning, cooking.",
-    img: "/images/team.jpeg",
+      "Faites confiance au soin apporté par nos équipes pour garantir le nettoyage de vos fins de chantier à Aix-en-Provence et dans les Bouches-du-Rhône.",
+    img: "/images/nettoyage-fin-chantier-casablanca-maroc.jpg",
   },
   {
-    title: "Oven Cleaning",
+    title: "Nettoyage de Restaurant",
     subtitle:
-      "Cleaning product designed or labeled to clean and to remove dried or baked on food deposits from oven walls.",
-    img: "/images/team.jpeg",
+      "Nettoyage de restaurant à Aix-en-Provence et dans les Bouches du Rhône. Procurez une hygiène irréprochable à vos clients.",
+    img: "/images/TOO_restaurant_Panoramique_vue_Paris_Seine_Tour_Eiffel_2.jpg",
   },
   {
-    title: "Apartment Cleaning",
+    title: "Nettoyage pour Hôtels",
     subtitle:
-      "We are taking care of cleaning surfaces on a regular basis so that they don't get overwhelmingly dirty.",
-    img: "/images/team.jpeg",
+      "Pour une propreté irréprochable de votre hôtel tout en utilisant des produits respectueux de l’environnement.",
+    img: "/images/procédures-pour-le-nettoyage-en-milieu-hôtelier.jpg",
   },
   {
-    title: "Refrigerator Cleaning",
+    title: "Nettoyage Canapé",
     subtitle:
-      "Rid of some memories or people to make room for new ones. Some of your loved ones have disappointed.",
-    img: "/images/team.jpeg",
+      "Nettoyage de canapés et remise en état. Tous types de revêtements. Nettoyage d’ameublement tissus, capitonage…",
+    img: "/images/a-worker-with-yellow-microfiber-rag-cleaning-sofa-2022-12-13-03-21-29-utc.jpg",
   },
 ];
 
 export const teamData = [
   {
-    title: "Choose Your Time",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Choisissez votre heure",
+    subtitle:
+      "Sélectionnez l'heure qui vous convient le mieux pour votre nettoyage.",
   },
   {
-    title: "Book Swiftly",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Réservez votre heure",
+    subtitle: "Réservez rapidement l'heure que vous avez soigneusement choisie.",
   },
   {
-    title: "Our Team Arrives",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Notre équipe arrive",
+    subtitle: "Soyez prêt pour une arrivée professionnelle et un nettoyage de qualité.",
   },
 ];
 
 export const statsData = [
-  { title: "Clean Houses", count: "1820" },
-  { title: "Glorius Years", count: "25" },
-  { title: "Active Clients", count: "750" },
-  { title: "Team Advisor", count: "55" },
+  { title: "Maisons propres", count: "10" },
+  { title: "Années glorieuses", count: "1" },
+  { title: "Clients actifs", count: "2" },
+  { title: "Conseiller d'équipe", count: "2" },
 ];

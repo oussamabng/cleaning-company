@@ -9,9 +9,9 @@ const Services = () => {
         <div className="flex flex-col gap-14">
           <div className="flex md:flex-row flex-col md:justify-between md:items-end items-start gap-6">
             <Heading
-              title="What Our Services"
-              desc="While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:"
-              tag="best services"
+              title="Quels sont nos services"
+              desc="Bien que nous puissions personnaliser votre plan de nettoyage en fonction de vos besoins, la plupart des clients planifient des services de nettoyage réguliers :"
+              tag="meilleurs services"
             />
           </div>
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-7 w-full items-center">

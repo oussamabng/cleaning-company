@@ -12,10 +12,10 @@ const Contact = () => {
       <div className="max-w-screen-xl mx-auto">
         <div className="flex md:flex-row flex-col md:justify-between items-center md:gap-6 gap-14">
           <div className="flex flex-col gap-14">
-            <Heading title="How To Get Our Service" tag="Get our Service" />
+            <Heading title="Comment obtenir notre service" tag="Obtenez notre service" />
             <div className="flex flex-col items-start gap-8">
               <TeamCard
-                title={"Phone"}
+                title={"Téléphone"}
                 subtitle={"+33 629 933 352 -- +33 767 840 889"}
                 icon={<PhoneCallIcon className="text-primary w-8 h-8" />}
               />
@@ -25,7 +25,7 @@ const Contact = () => {
                 icon={<MailIcon className="text-primary w-8 h-8" />}
               />
               <TeamCard
-                title={"Location"}
+                title={"Emplacement"}
                 subtitle={"4 Allée Georges peretti 13100, Aix-en-Provence"}
                 icon={<MapPinIcon className="text-primary w-8 h-8" />}
               />

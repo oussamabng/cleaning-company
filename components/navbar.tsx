@@ -24,7 +24,7 @@ const Navbar = () => {
           </Link>
         </div>
         <Button size="lg" className="md:block hidden">
-          Request An Estimate
+          Demander un devis
         </Button>
         <Button className="md:hidden block">Request</Button>
       </div>

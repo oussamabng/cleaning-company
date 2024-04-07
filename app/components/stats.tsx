@@ -6,7 +6,7 @@ const Stats = () => {
     <div className="w-full">
       <div className="relative bg-primary py-20 px-4 text-white w-full flex justify-center items-center">
         <h2 className="font-bold md:text-5xl text-4xl text-center max-w-2xl leading-snug">
-          We Make Sanitizing Services Simple And Easy For You
+          Nous rendons les services de désinfection simples et faciles pour vous
         </h2>
         <div className="absolute bottom-0">
           <Button
@@ -14,16 +14,16 @@ const Stats = () => {
             variant="secondary"
             className="translate-y-1/2 cursor-default"
           >
-            More Than Just Cleaning
+            Plus que simple nettoyage
           </Button>
         </div>
       </div>
       <div className="max-w-screen-xl mx-auto py-20 px-8">
         <div className="flex flex-col items-center gap-8">
           <span className="text-base font-light text-center max-w-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut
+            {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut
             sollicitudin sem. Ut tempus ligula eget vestibulum dapibus. Sed ac
-            pulvinar massa. Class aptent{" "}
+            pulvinar massa. Class aptent{" "} */}
           </span>
           <div className="flex flex-wrap justify-center items-center gap-7">
             {statsData.map(({ title, count }, index) => (

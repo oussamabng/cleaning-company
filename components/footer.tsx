@@ -24,8 +24,8 @@ const Footer = () => {
             />
           </Link>
           <span className="max-w-xs md:text-left text-center">
-            We Are Premium Cleaning Company in USA ready to make your life
-            easier!!
+            Nous sommes une entreprise de nettoyage haut de gamme à
+            Aix-en-Provence prête à vous faciliter la vie !!
           </span>
           <div className="flex items-center gap-2">
             <div className="flex justify-center bg-primary text-white items-center rounded-full w-9 h-9">
@@ -42,9 +42,9 @@ const Footer = () => {
         <div className="flex md:items-start items-center flex-col gap-5">
           <span className="text-primary font-semibold text-xl">Navigation</span>
           <div className="flex md:items-start items-center flex-col gap-2">
-            <Link href="/">Home</Link>
+            <Link href="/">Acceuil</Link>
             <Link href="#service">Services</Link>
-            <Link href="#contact">Contact Us</Link>
+            <Link href="#contact">Contactez-nous</Link>
           </div>
         </div>
         <div className="flex md:items-start items-center flex-col gap-5">

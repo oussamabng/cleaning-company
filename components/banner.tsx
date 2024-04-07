@@ -23,14 +23,15 @@ const Banner: React.FC<BannerProps> = ({ position = "top" }) => {
       >
         {isTop ? (
           <span className="md:text-base text-sm">
-            Call for free estimate! We are always available :{" "}
+            Appelez pour une estimation gratuite! Nous sommes toujours
+            disponibles :{" "}
             <span className="font-bold text-[#FEF5E7]">
               +33 629 933 352 -- +33 767 840 889
             </span>
           </span>
         ) : (
           <span className="md:text-base text-sm">
-            Copyright © 2024 | All Rights Reserved
+            Copyright © 2024 | Tous droits réservés
           </span>
         )}
         {isTop && (
